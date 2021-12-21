@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WisataAlam">
+
+
+    <LinearLayout
+        android:background="@drawable/bg"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:paddingLeft="5pt">
+
+            <TextView
+                android:id="@+id/textGrid"
+                android:layout_width="389dp"
+                android:layout_height="93dp"
+                android:layout_centerInParent="true"
+                android:background="#0F5878"
+                android:text="WISATA SUMATERA \n UTARA"
+                android:textAlignment="center"
+                android:textColor="#FDD835"
+                android:textSize="34sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="20dp"
+                android:text="1.Masjid Raya Al-Mashun"
+                android:textAlignment="center"
+                android:textColor="#020202"
+                android:textSize="9pt" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140pt"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10pt"
+                android:layout_marginVertical="10pt"
+                android:background="@drawable/gradasi"
+                android:paddingTop="40dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/masjid" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350dp"
+                android:paddingTop="20dp"
+                android:text="Masjid Raya dikenal sebagai salah satu bangunan yang menjadi ikon Ibukota Sumatera Utara. Dalam pembanguannya, Masjid ini diprakarsai oleh Sultan Makmun Al-Rasyid pada tahun 1906. Masjid Raya memiliki desain arsitektur unik perpaduan antara gaya India, Spanyol dan Timur Tengah."
+                android:textAlignment="center"
+                android:textColor="#0B0B0B"
+                android:textSize="9pt" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

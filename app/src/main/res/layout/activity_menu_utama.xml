@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuUtama">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bg"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/textGrid"
+                android:layout_width="389dp"
+                android:layout_height="93dp"
+                android:layout_centerInParent="true"
+                android:background="#0F5878"
+                android:text="WISATA SUMATERA \n UTARA"
+                android:textAlignment="center"
+                android:textColor="#FDD835"
+                android:textSize="34sp" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:rowCount="3"
+            app:srcCompat="@drawable/bg">
+
+            <LinearLayout
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="106dp"
+                    android:layout_height="123dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/wa" />
+
+                <Button
+                    android:id="@+id/wisata_alam"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Wisata Alam"
+                    android:textColor="#151414"
+                    app:backgroundTint="#00E676" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="109dp"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/edukasi" />
+
+                <Button
+                    android:id="@+id/wisata_edukasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Wisata Edukasi"
+                    android:textColor="#151414"
+                    app:backgroundTint="#00E676" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="106dp"
+                    android:layout_height="123dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/religi" />
+
+                <Button
+                    android:id="@+id/Wisata_religi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Wisata Religi"
+                    android:textColor="#151414"
+                    app:backgroundTint="#00E676"  />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="106dp"
+                    android:layout_height="123dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/kuliner" />
+
+                <Button
+                    android:id="@+id/Wisata_kuliner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Wisata Kuliner"
+                    android:textColor="#151414"
+                    app:backgroundTint="#00E676"  />
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="118dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="106dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/about" />
+
+                    <Button
+                        android:id="@+id/About"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="About"
+                        android:textColor="#151414"
+                        app:backgroundTint="#00E676"  />
+
+                </LinearLayout>
+
+            <!-- Column 2 -->
+
+                <LinearLayout
+                    android:layout_width="118dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="106dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/exit" />
+
+                    <Button
+                        android:id="@+id/Kluar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Exit"
+                        android:textColor="#151414"
+                        app:backgroundTint="#00E676"  />
+
+                </LinearLayout>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
